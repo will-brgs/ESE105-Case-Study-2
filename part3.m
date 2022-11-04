@@ -9,7 +9,7 @@ x_init =[.05;% Infection rate
 
 
 
-x_no_vax = siroutput_prop(x_init, t);
+x_no_vax = siroutput_prop(x_init, 99);
 
 x_init_vax =[.05;% Infection rate
          .14;% Fatality Rate
